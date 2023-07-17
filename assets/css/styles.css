@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: ;
+}
+.content {
+    width: 1005px;
+    max-width: calc(100%-48px);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+}
+
+/* ---header--- */
+.header {
+    height: 100px;
+    padding-top: 10px;
+}
+.header .content {
+    width: 100%;
+}
+.header .header-top {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header .header-top .logo {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: 0.5em;
+    /* text-align: center; */
+    color: #867f7f;
+    /* margin-top: 10px; */
+}
+.header .header-nav {
+    padding-top: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header .header-nav .nav {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 130px;
+    margin-top: 10px;
+}
+.header .header-nav .nav a {
+    text-decoration: none;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    color: rgba(99, 95, 95, 0.85);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 15px;
+    letter-spacing: 2PX;
+    width: 30px;
+    border-radius: 3px;
+    background-color: rgb(242, 240, 244);
+}
+/* ---part1--- */
+.part1 {
+    height: 945px;
+}
+.part1 .hero {
+    display: flex;
+}
+.part1 .hero .img-block .image {
+    width: 660px;
+    height: 330px;
+}
+.part1 .hero .content-block {
+    width: 315px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.part1 .hero .content-block .title {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 30px;
+}
+.part1 .hero .content-block .desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.part1 .guides {
+    display: flex;
+    margin-top: 30px;
+}
+.part1 .guides .guide-item .guide {
+    width: 315px;
+    height: 150px;
+    margin-right: 30px;
+    object-fit: cover;
+}
+.part1 .guides .guide-item .info {
+    width: 315px;
+}
+.panel .panel {
+    width: 1005px;
+    margin-top: 30px;
+}
+/* ---part2--- */
+.part2 .features-1 {
+    display: flex;
+    margin-top: 30px;
+}
+.part2 .features-1 .feature-item .image {
+    width: 315px;
+    height: 150px;
+    margin-right: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.part2 .features-1 .feature-item .info {
+    width: 315px;
+}
+.part2 .features-2 {
+    display: flex;
+    margin-top: 30px;
+}
+.part2 .features-2 .feature-item .image {
+    width: 315px;
+    height: 150px;
+    margin-right: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.part2 .features-2 .feature-item .info {
+    width: 315px;
+}
