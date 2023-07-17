@@ -13,7 +13,7 @@ body {
     max-width: calc(100%-48px);
     margin-left: auto;
     margin-right: auto;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 /* ---header--- */
@@ -75,6 +75,8 @@ body {
 .part1 .hero .img-block .image {
     width: 660px;
     height: 330px;
+    border-radius: 5px;
+    object-fit: cover;
 }
 .part1 .hero .content-block {
     width: 315px;
@@ -101,6 +103,7 @@ body {
     width: 315px;
     height: 150px;
     margin-right: 30px;
+    border-radius: 5px;
     object-fit: cover;
 }
 .part1 .guides .guide-item .info {
@@ -120,7 +123,7 @@ body {
     height: 150px;
     margin-right: 30px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .part2 .features-1 .feature-item .info {
     width: 315px;
@@ -134,8 +137,85 @@ body {
     height: 150px;
     margin-right: 30px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .part2 .features-2 .feature-item .info {
     width: 315px;
+}
+
+/* ---part3--- */
+.part3 {
+    display: flex;
+}
+.part3-1 {
+    margin-top: 20px;
+}
+.part3-1 .content {
+    width: 660px;
+    margin-left: 260px;
+}
+.part3-1 .articles-item {
+    display: flex;
+    margin-top: 30px;
+}
+.part3-1 .image {
+    width: 280px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.part3-1 .articles .info {
+    width: 330px;
+    margin-left: 30px;
+}
+/* ---part4--- */
+.part3-2 {
+    /* width: 315px; */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.part3-2 .content {
+    width: 315px;
+}
+.part3-2 .issue1 .img-issue {
+    width: 315px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.part3-2 .podcast {
+    margin-top: 30px;
+}
+.part3-2 .podcast1 .img-podcast {
+    width: 315px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+/* ---footer--- */
+.footer .content {
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    background-color: #3c3737;
+}
+.footer .row {
+    color: #fff;
+    display: flex;
+}
+.footer .row .column1 {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.footer .row .column2 {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.footer .row .info {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.footer .row .info li {
+    font-size: 1.4rem;
+    margin-top: 5px;
 }
